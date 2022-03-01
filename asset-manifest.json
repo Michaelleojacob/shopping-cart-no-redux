@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/no-redux-shopping-cart/static/js/main.5e335a22.js",
+    "index.html": "/no-redux-shopping-cart/index.html",
+    "main.5e335a22.js.map": "/no-redux-shopping-cart/static/js/main.5e335a22.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5e335a22.js"
+  ]
+}
