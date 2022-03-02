@@ -13,6 +13,7 @@ const AppRouter = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/products" element={<Products />} />
       </Route>
+      <Route path="/*" element={<App />} />
     </Routes>
   );
 };
