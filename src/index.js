@@ -1,13 +1,8 @@
 import { render } from 'react-dom';
-import { HashRouter } from 'react-router-dom';
 import AppRouter from './app/app';
 
 const Script = () => {
-  return (
-    <HashRouter>
-      <AppRouter />
-    </HashRouter>
-  );
+  return <AppRouter />;
 };
 
 render(<Script />, document.getElementById('root'));

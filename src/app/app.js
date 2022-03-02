@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { HashRouter, Routes, Route, Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import Nav from './components/nav';
 import Home from './components/home';
@@ -7,14 +7,16 @@ import Products from './components/products';
 
 const AppRouter = () => {
   return (
-    <Routes>
-      <Route path="/" element={<App />}>
-        <Route index path="/home" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/products" element={<Products />} />
-      </Route>
-      <Route path="/*" element={<App />} />
-    </Routes>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index path="/home" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/products" element={<Products />} />
+        </Route>
+        <Route path="/*" element={<App />} />
+      </Routes>
+    </HashRouter>
   );
 };
 
