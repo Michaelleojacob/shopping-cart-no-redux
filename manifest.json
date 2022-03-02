@@ -1,6 +1,6 @@
 {
-  "short_name": "no redux cart",
-  "name": "shopping cart no redux",
+  "short_name": "noreduxcart",
+  "name": "shoppingcartnoredux",
   "icons": [
     {
       "src": "favicon.ico",
