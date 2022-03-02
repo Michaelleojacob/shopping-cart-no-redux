@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/no-redux-shopping-cart/static/js/main.db9b8892.js",
+    "main.js": "/no-redux-shopping-cart/static/js/main.0c2cbfb4.js",
     "index.html": "/no-redux-shopping-cart/index.html",
-    "main.db9b8892.js.map": "/no-redux-shopping-cart/static/js/main.db9b8892.js.map"
+    "main.0c2cbfb4.js.map": "/no-redux-shopping-cart/static/js/main.0c2cbfb4.js.map"
   },
   "entrypoints": [
-    "static/js/main.db9b8892.js"
+    "static/js/main.0c2cbfb4.js"
   ]
 }
