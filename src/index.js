@@ -1,5 +1,6 @@
 import { render } from 'react-dom';
-import AppRouter from './app/app';
+import './index.css';
+import AppRouter from './app/router';
 
 const Script = () => {
   return <AppRouter />;
