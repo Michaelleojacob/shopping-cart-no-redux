@@ -1,11 +1,11 @@
 import { render } from 'react-dom';
 import { HashRouter } from 'react-router-dom';
-import App from './app/app';
+import AppRouter from './app/app';
 
 const Script = () => {
   return (
     <HashRouter>
-      <App />
+      <AppRouter />
     </HashRouter>
   );
 };
