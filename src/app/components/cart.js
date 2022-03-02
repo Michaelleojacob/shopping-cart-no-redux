@@ -1,8 +1,9 @@
-import { useOutletContext } from 'react-router-dom';
+// import { useOutletContext } from 'react-router-dom';
 
 const Cart = () => {
-  const [cart, setCart] = useOutletContext();
-  console.log(cart);
+  // const [cart] = useOutletContext();
+  // console.log(cart);
+  // const [] = useOutletContext();
   return (
     <div>
       <div>cart</div>
