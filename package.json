@@ -2,6 +2,7 @@
   "name": "no-redux-shopping-cart",
   "homepage": "https://michaelleojacob.github.io/shopping-cart-no-redux",
   "_comment": {
+    "notetoself": "I dont think it's suppose to have the trailing /",
     "homepageone": "/",
     "homepagetwo": "https://michaelleojacob.github.io/no-redux-shopping-cart/",
     "homepagethree": "https://michaelleojacob.github.io/no-redux-shopping-cart/#/"
